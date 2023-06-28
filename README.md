@@ -11,7 +11,17 @@ Database Penyewaan Penginapan Villa
 • Transaksi Penyewaan dan Pembayaran
 
 • Laporan Transaksi
+```
+*** Nama Anggota ***
 
+1.Hasbi Assidiki (312210448)
+
+2.Mikael Rivaldo (312210378)
+
+3.Akram Satya (312210461)
+
+4.Yudha Eka Perdana (312210362)
+```
 
 # Untuk ERD Database Penyewaan Villa seperti gambar di bawah ini :
 
