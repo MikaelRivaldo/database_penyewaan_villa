@@ -2,8 +2,8 @@
 
 ### KELOMPOK 6
 ```
-1.Hasbi Assidiki (312210448)
-2.Mikael Rivaldo (312210378)
+1.Mikael Rivaldo (312210378)
+2.Hasbi Assidiki (312210448)
 3.Akram Satya (312210461)
 4.Yudha Eka Perdana (312210362)
 ```
@@ -36,6 +36,16 @@ CREATE TABLE Villa (
   harga DECIMAL(10, 2)
 );
 ```
+
+```sql
+CREATE TABLE Pengunjung (
+  id_pengunjung INT PRIMARY KEY,
+  nama VARCHAR(255),
+  alamat VARCHAR(255),
+  email VARCHAR(255),
+  no_hp VARCHAR(20)
+);
+```
 ```sql
 CREATE TABLE Reservasi (
   id_reservasi INT PRIMARY KEY,
@@ -47,15 +57,7 @@ CREATE TABLE Reservasi (
   FOREIGN KEY (id_villa) REFERENCES Villa(id_villa)
 );
 ```
-```sql
-CREATE TABLE Pengunjung (
-  id_pengunjung INT PRIMARY KEY,
-  nama VARCHAR(255),
-  alamat VARCHAR(255),
-  email VARCHAR(255),
-  no_hp VARCHAR(20)
-);
-```
+
 ```sql
 CREATE TABLE Pembayaran (
   id_pembayaran INT PRIMARY KEY,
