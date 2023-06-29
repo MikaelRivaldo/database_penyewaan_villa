@@ -185,7 +185,7 @@ insert into pembayaran (id_pembayaran,id_reservasi,tipe,jumlah) values
   - Output  
   ![pembayaran](https://github.com/HasbiAssidiki/Lab2py/assets/115614317/9bd3d8bf-a8d1-4dc3-a2ce-e831bca7648d)  
 
-### 2.Update Table
+### 2.Update + DELETE Table
 - Menambahkan values
 ```sql
 insert into pengunjung (id_pengunjung,nama,alamat,email,no_hp) values
