@@ -205,7 +205,7 @@ update villa set harga = '4000000' where id_villa = 2;
 ```sql
 delete from pengunjung WHERE id_pengunjung = '5
 ```
-- Output
+- Output  
  ![pengunjung](https://github.com/HasbiAssidiki/Lab2py/assets/115614317/35153755-553b-41a4-96bf-343b7a45a919)  
 ### 3. JOIN Table
 - INNER JOIN antara tabel Reservasi, Pengunjung, dan Villa berdasarkan id_pengunjung dan id_villa:
