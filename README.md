@@ -1,5 +1,7 @@
 # database_penyewaan_villa
 
+# Penjelasan ada di YOUTUBE : https://youtu.be/kt-Sj94F_pA
+
 ### KELOMPOK 6
 ```
 1.Mikael Rivaldo (312210378)
